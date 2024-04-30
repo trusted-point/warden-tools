@@ -300,7 +300,7 @@ echo "validator.json file created successfully."
 cat $HOME/.warden/config/validator.json
 ```
 
-### 19. Create a validator
+### 20. Create a validator
 ```bash
 wardend tx staking create-validator $HOME/.warden/config/validator.json \
   --chain-id=$CHAIN_ID \
